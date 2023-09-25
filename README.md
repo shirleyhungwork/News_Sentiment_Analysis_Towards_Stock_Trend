@@ -43,7 +43,7 @@ Moreover, according to the confusion matrix and the result summary as indicated 
   <img src="/img/tsla_topic_model_metric_2.jpg" alt="Image" width="600"> 
 </p>
 
-## Sentiment Analysis 
+### Sentiment Analysis 
 Bidirectional LSTM model, LSTM model and Random Forest Classifier were experimented based on the predicted results conducted by topic modelling algorithm concluded above (Decision Tree Classification) to correlate news release and trending of stock price in upcoming 5 trading days, in which 80% of detected stock-related datasets were trained whereas the remaining 20% were used for validation. According to the training and validation results as indicated below, it is shown that the validation accuracy generally falls between 0.7 and 0.8 using Bi-LSTM model, while the testing accuracy of LSTM and Random Forest Classifier are approximately 0.6. However, it appears that the effect of stock prediction using Bi-LSTM model towards the ADBE movement is significantly less than others with prediction accuracy approximately 0.69 on average.  
 <p align="center">
   <img src="/img/sentiment_metric_1.jpg" alt="Image" width="600"> 
